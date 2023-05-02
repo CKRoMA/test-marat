@@ -1187,6 +1187,7 @@ input {
 
 /******************************************************footer ********/
 .footer {
+	margin:20px 0px 0px 0px;
 	background: linear-gradient(90deg, #5BD09A 0%, #4E83C0 100%), #333333;
 }
 
