@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--коментарий-->
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+
+	<!--Подключаем шрифты-->
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans:regular,italic,700" rel="stylesheet" />
+	<link href="https://fonts.googleapis.com/css?family=Tinos:700" rel="stylesheet" />
+	<!--------------------------------------------------------------->
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+	<link rel="stylesheet" type="text/css"
+		href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+	<!--------------------------------------------------------------->
+	<title></title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<a href="#" class="header__logo">
+					<img src="./img/header/logo/Logo.png" alt="" class="header__logo-img">
+					<img src="./img/header/logo/logo-text.png" alt="" class="header__logo-text">
+				</a>
+				<nav class="header__menu menu">
+					<div class="menu__body">
+						<ul class="menu__list">
+							<li class="menu__item">
+								<a data-goto="news" href="#" class="menu__link">О нас</a>
+							</li>
+							<li class="menu__item">
+								<a data-goto="events" href="#" class="menu__link">Услуги и цены</a>
+							</li>
+							<li class="menu__item">
+								<a data-goto="blog" href="#" class="menu__link">Фото работ</a>
+							</li>
+							<li class="menu__item">
+								<a data-goto="contacts" href="#" class="menu__link">Контакты</a>
+							</li>
+						</ul>
+					</div>
+					<button class="menu__icon icon-menu" type="button">
+						<span class="icon-menu__line"></span>
+					</button>
+				</nav>
+			</div>
+		</header>
+		<main class="main">
+			<section class="contacts">
+				<div class="contacts__container">
+					<div class="contacts__tel">
+						<div class="contacts__tel-home ">
+							<div class="contacts__tel-item">
+								<img src="./img/header/logo/Phone.png" alt="Phone.png">
+								<a href="#">(044) 333-33-33</a>
+							</div>
+							<div class="contacts__tel-items">
+								<img src="./img/header/Callback icon.png" alt="Callback icon.png">
+								<a href="#">Заказать обратный звонок</a>
+							</div>
+						</div>
+						<div class="contacts__tel-mobile mobile-tel">
+							<div class="mobile-tel__item">
+								<img src="./img/header/logo/Mobile 1.png" alt="Phone.png">
+								<a href="#">(096) 111-11-11</a>
+							</div>
+							<div class="mobile-tel__items">
+								<img src="./img/header/logo/Mobile 1.png" alt="Phone.png">
+								<a href="#">(066) 222-22-22</a>
+							</div>
+						</div>
+
+					</div>
+					<div class="btn contacts__button"><a href="#">Записаться на приём</a></div>
+				</div>
+			</section>
+			<section class="hygiene">
+				<!-- <img class="hygiene__image" src="./img/main/titul/Sl 1.png" alt="Sl 1.png"> -->
+				<div class="hygiene__container">
+					<h2 class="hygiene__title">Гигиена полости рта</h2>
+					<ul class="hygiene__item">
+						<li class="hygiene__items">
+							<p>
+								ультразвуковая обработка
+							</p>
+						</li>
+						<li class="hygiene__items">
+							<p>
+								Air-Flow
+							</p>
+						</li>
+						<li class="hygiene__items">
+							<p>
+								полировка профессиональными пастами
+							</p>
+						</li>
+						<li class="hygiene__items">
+							<p>
+								глубокое фторирование эмали
+							</p>
+						</li>
+					</ul>
+				</div>
+			</section>
+			<section class="services">
+				<div class="services__container">
+					<div class="services__content" style="background-color:#5bd077;">
+						<img src="./img/main/services/Icon 1.png" alt="Icon 1.png" class="services__content-icon">
+						<h3 class="services__content-title">
+							детская стоматология
+						</h3>
+						<p class="services__content-text">
+							Раздел стоматологии, занимающийся изучением этиологии диагностики,
+							методов профилактики и лечения зубо-челюсных аномалий.
+						</p>
+					</div>
+
+					<div class="services__content" style="background-color:#64dcb9;">
+						<img src="./img/main/services/Icon 2.png" alt="Icon 2.png" class="services__content-icon">
+						<h3 class="services__content-title">
+							терапия
+						</h3>
+						<p class="services__content-text">
+							Задача терапевтической стоматологии заключается в диагностике
+							и лечении заболевания зубов и некоторых прилегающих областей.
+						</p>
+					</div>
+
+					<div class="services__content" style="background-color:#63cecd;">
+						<img src="./img/main/services/Icon 3.png" alt="Icon 3.png" class="services__content-icon">
+						<h3 class="services__content-title">
+							Ортодонтия
+						</h3>
+						<p class="services__content-text">
+							Раздел стоматологии, занимающийся изучением этиологии,
+							диагностики,методов профилактики и лечения зубо-челюсных
+							аномалий.
+						</p>
+					</div>
+
+					<div class="services__content" style="background-color:#50aac7;">
+						<img src="./img/main/services/Icon 4.png" alt="Icon 4.png" class="services__content-icon">
+						<h3 class="services__content-title">
+							ортопедия
+						</h3>
+						<p class="services__content-text">
+							Несъемное протезирование зубов предполагает изготовление и
+							установкупостоянных,стационарных зубных протезов.
+						</p>
+					</div>
+
+					<div class="services__content" style="background-color:#4a99c2;">
+						<img src="./img/main/services/Icon 5.png" alt="Icon 5.png" class="services__content-icon">
+						<h3 class="services__content-title">
+							имплантация
+						</h3>
+						<p class="services__content-text">
+							Это метод вживления искусственных опор для несъемных
+							и съемных зубных протезов.
+						</p>
+					</div>
+
+					<div class="services__content" style="background-color:#4a88c2;">
+						<img src="./img/main/services/Icon 6.png" alt="Icon 6.png" class="services__content-icon">
+						<h3 class="services__content-title">
+							хирургия
+						</h3>
+						<p class="services__content-text">
+							Раздел стоматологии, практикующий такие методы лечения
+							как: операция по удалению зубов, подсадка костной ткани и т.д.
+						</p>
+					</div>
+				</div>
+			</section>
+			<section class="lorem">
+				<div class="lorem__container">
+					<div class="lorem__text">
+						<p class="text">
+							Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является
+							стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник
+							создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов.
+
+						</p>
+						<br>
+						<p class="text">
+							Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в
+							электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с
+							образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа
+							Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.
+
+						</p>
+					</div>
+					<div class="lorem__image">
+						<h4 class="lorem__image-title">У нас есть визиограф </h4>
+						<p class=" text lorem__image-text">Рентген на месте</p>
+						<img src="./img/main/lorem/Image.png" alt="Image.png" class="lorem__image-icon">
+					</div>
+				</div>
+			</section>
+			<section class="advantages">
+				<div class="advantages__container">
+					<h3 class="advantages__title">
+						наши преимущества
+					</h3>
+					<div class="advantages__content">
+						<div class="advantages__inner">
+							<img src="./img/main/advantages/Doctor01.png" alt="Doctor01.png" class="advantages__inner-icon">
+							<p class="advantages__inner-text">
+								Сертифицированые специалисты
+							</p>
+						</div>
+						<div class="advantages__inner">
+							<img src="./img/main/advantages/Services02.png" alt="Services02.png"
+								class="advantages__inner-icon">
+							<p class="advantages__inner-text">
+								Полный спектр услуг
+							</p>
+						</div>
+						<div class="advantages__inner">
+							<img src="./img/main/advantages/Technologies03.png" alt="Technologies03.png"
+								class="advantages__inner-icon">
+							<p class="advantages__inner-text">
+								Инновационные технологии
+							</p>
+						</div>
+						<div class="advantages__inner">
+							<img src="./img/main/advantages/Guarantee04.png" alt="Guarantee04.png"
+								class="advantages__inner-icon">
+							<p class="advantages__inner-text">
+								Гарантия качества
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="reviews">
+				<div class="reviews__container">
+					<h3 class="reviews__title">
+						отзывы пациентов
+					</h3>
+					<div class="slider">
+						<div class="slider__item">
+							<div class="reviews__content">
+								<p>Дуже задоволена результатом відвідування Вашої клініки! Професіонали на найвищому рівні!!
+									Рекомендую!! Дякую, дякую, дякую!!!
+								</p>
+								<h5 class="slider__name">
+									Светлана
+								</h5>
+							</div>
+						</div>
+						<div class="slider__item">
+							<div class="reviews__content">
+								<p>Прекрасна клініка. Завжди боявся стоматолога. Та з вашою клінікою відкрив для себе сучасну
+									стоматологію.
+								</p>
+								<h5 class="slider__name">
+									Олексій Антонович
+								</h5>
+							</div>
+						</div>
+						<div class="slider__item">
+							<div class="reviews__content">
+								<p>Мне всегда больно у стоматолога, но не в этой клинике. Профессионализм на высшем уровне. Всем
+									очень довольна. Особое спасибо Бессоновой Наталье Викторовне!
+								</p>
+								<h5 class="slider__name">
+									Ирина Вячеславовна
+								</h5>
+							</div>
+						</div>
+					</div>
+					<div class="reviews__button"><a href="#">Читать все отзывы</a></div>
+				</div>
+			</section>
+			<section class="contact-form">
+				<div class="contact-form__container">
+					<h3 class="contact-form__title">
+						записаться на приём
+					</h3>
+					<div class="contact-form__inner">
+						<form action="#" method="post">
+							<div class="contact-form__content">
+								<div class="icon-grup">
+									<span class="input-icon"><img src="/img/main/form/Human icon01.png" alt="input.png"></span>
+									<input required class="content-title__input" placeholder="Ваше имя*" name="name" type="text">
+								</div>
+								<div class="icon-grup">
+									<span class="input-icon"><img src="/img/main/form/Phone02.png" alt="input.png"></span>
+									<input required class="content-title__input" placeholder="Номер телефона*" name="userphone"
+										type="tel">
+								</div>
+								<div class="icon-grup">
+									<span class="input-icon"><img src="/img/main/form/Calendar icon03.png"
+											alt="input.png"></span>
+									<input required class="content-title__input" placeholder="Дата посещения*" name="data"
+										type="text">
+								</div>
+								<div class="icon-grup">
+									<span class="input-icon"><img src="/img/main/form/Clock icon04.png" alt="input.png"></span>
+									<input required class="content-title__input" placeholder="Время посещения*" name="clock"
+										type="text">
+								</div>
+							</div>
+							<textarea class="textarea" name="story" maxlength=" 300" id="formstory" rows="3" cols="30"
+								placeholder=" Здесь можно указать причину обращения или ваши пожелания, если таковые имеются..."></textarea>
+							<input class="contact-form__button" type="submit" name="submit" value="Отправить заявку">
+						</form>
+						<div class="contact-form__text">
+							<p>Чтобы записаться на приём к врачу заполните эту простую форму. Укажите удобные для вас дату и
+								время посещения. После получения заявки мы перезвоним вам для уточнения, возможен ли приём в это
+								время и если нет, согласуем другую подходящую дату.
+							</p><br>
+							<p>* Поля со звёздочкой обязательны для заполнения</p>
+							<img src="./img/main/form/Arrow.png" alt="Arrow.png">
+						</div>
+
+					</div>
+				</div>
+
+			</section>
+		</main>
+		<footer class=" footer ">
+			<div class=" footer__container">
+				<ul class="footer__item">
+					<ul class="footer__items">
+						<a href="#">О нас</a>
+					</ul>
+					<ul class="footer__items">
+						<a href="#">Услуги и цены</a>
+					</ul>
+					<ul class="footer__items">
+						<a href="#">Фото работ</a>
+					</ul>
+					<ul class="footer__items">
+						<a href="#">Контакты</a>
+					</ul>
+				</ul>
+			</div>
+			<span class="footer__span-line"></span>
+			<div class="footer__container">
+				<div class="footer__inner">
+					<div class="footer__inner-name">
+						<p>Клиника семейной медицины
+							ООО «Название компании»</p>
+					</div>
+					<div class="footer__inner-logo">
+						<img src="./img/footer/Marat logo.png" alt="Marat logo.png">
+						<div class="footer__inner-text">
+							<p>Разработка сайта — MARATTM <br>
+								© COPYRIGHT <br>
+								THE MARAT COMPANY <INC class="br"></INC>
+								2016 ALL RIGHTS RESERVED
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<!--подключаем jquery-->
+
+	<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+	<script src="js/slick.min.js"></script>
+
+	<!--Подключаем  js  -->
+	<script src="js/script.js"></script>
+	<!--------------------------------------------->
+</body>
