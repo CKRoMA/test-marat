@@ -1247,7 +1247,27 @@ input {
 	align-items: center;
 	color: #FFFFFF;
 }
-
+/***********************************/
+@media (max-width: 479.9808px) {
+	.footer__item {
+		gap: 15px;
+	}
+	.footer__items a {
+		font-size: 12px;
+	}
+	.footer__inner-name p {
+		width: 150px;
+		font-size: 10px;
+	}
+	.footer__inner-logo {
+		width: 170px;
+		gap: 10px;
+	}
+	
+	.footer__inner-text {
+		font-size: 8px;
+	}
+}
 
 
 
