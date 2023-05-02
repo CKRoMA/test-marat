@@ -511,7 +511,7 @@ li::marker {
 
 /*******************************hygiene*********/
 .hygiene {
-	background-image: url(/img/main/titul/Sl\ 1.png);
+	background-image: url(../img/main/titul/Sl\ 1.png);
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
