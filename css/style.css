@@ -190,9 +190,7 @@ h6 {
 	text-align: left;
 }
 
-li::marker {
-	color: #FFFFFF;
-}
+
 
 /******************************header***************************************************/
 .header {
@@ -268,7 +266,9 @@ li::marker {
 .icon-menu {
 	display: none;
 }
-
+.menu__item {
+	list-style: none;
+}
 .menu__item a {
 
 	font-size: 20px;
@@ -539,6 +539,9 @@ li::marker {
 
 .hygiene__item {
 	padding: 10px 0px 15px 15px;
+}
+.hygiene__items::marker {
+	color: #FFFFFF;
 }
 
 .hygiene__items p {
